@@ -1,3 +1,8 @@
+<!-- Basic Functionality we want is that there is 1 single card showing at any given time.  When a card is selected, it becomes visible, hiding current card. -->
+<!-- Each card has an expand button at the bottom that turns it into a scrollable card -->
+<!-- Each card could instead have a button for each part of the card, making that portion visible -->
+<!-- This could be an acordian, or otherwise top bar with options within the outter card (for tablet and wider)  -->
+<!-- On non-mobile, wide screens, different parts of each card (one, two, three, four) are all visible by default -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +20,7 @@
             <div class="width">
                 <div id="header">
                     <div id="title">
+                        name
                         <a href="./index.html"></a> <!-- this, or, have an "on.click" redirect home -->
                     </div>
                     <div id="menu">
@@ -26,47 +32,81 @@
                 </div>
 
                 <div id="body">
-                    <div id="one">
-                        <div id="portrait">
+                    <div id="one" class="container">
+                        <div id="portrait" class="row">
                             <div class="container">
                                 <img src="./assets/img/personal_portrait_color.jpg" alt="Portrait of myself, in color.">
                             </div>
                         </div>
-                        <div id="contact">
-                            <div id="github">
+                        <div id="contact" class="row">
+                            <div id="github" class="col">
 
                             </div>
-                            <div id="email">
+                            <div id="email" class="col">
 
                             </div>
-                            <div id="twitter">
+                            <div id="twitter" class="col">
 
                             </div>
-                            <div id="linkedIn">
+                            <div id="linkedIn" class="col">
 
                             </div>
-                            <div id="phone">
+                            <div id="phone" class="col">
 
                             </div>
                         </div>
-                        <div id="bio">
-                            <h1></h1>
-                            <p></p>
-                            <p></p>
-                            <img src="" alt="">
-                            <p></p>
-                            <img src="" alt="">
-                            <P></P>
+                        <div id="bio" class="row">
+                            <h1 class="col"></h1>
+                            <p class="col"></p>
+                            <p class="col"></p>
+                            <img class="col" src="" alt="">
+                            <p class="col"></p>
+                            <img class="col" src="" alt="">
+                            <P class="col"></P>
                         </div>
                     </div>
-                    <div id="two">
+                    <div id="two" class="container">
+                        <div id="photography" class="row">
+                            <div id="corporate" class="col">
 
+                            </div>
+                            <div id="street" class="col">
+
+                            </div>
+                            <div id="portrait" class="row">
+
+                            </div>
+                        </div>
                     </div>
-                    <div id="three">
+                    <div id="three" class="container">
+                        <div id="webDesign" class="row">
+                            <div id="#" class="col">
 
+                            </div>
+                            <div id="#" class="col">
+
+                            </div>
+                            <div id="#" class="col">
+
+                            </div>
+                            <div id="#" class="col">
+
+                            </div>
+                            <div id="#" class="col">
+
+                            </div>
+                            <div id="#" class="col">
+
+                            </div>
+                            <div id="#" class="col">
+
+                            </div>
+                        </div>
                     </div>
                     <div id="four">
+                        <ddiv id="video">
 
+                        </ddiv>
                     </div>
                     <div id="five">
 
@@ -80,17 +120,13 @@
                 </div>
                 
                 <div id="footer">
+                    <div></div>
+                    <div></div>
 
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
