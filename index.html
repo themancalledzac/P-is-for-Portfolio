@@ -3,6 +3,19 @@
 <!-- Each card could instead have a button for each part of the card, making that portion visible -->
 <!-- This could be an acordian, or otherwise top bar with options within the outter card (for tablet and wider)  -->
 <!-- On non-mobile, wide screens, different parts of each card (one, two, three, four) are all visible by default -->
+
+<!-- Group Mini-Project Ideas -->
+<!-- Group Mini-Project has us creating a HTML page and dynamically rendering content. -->
+<!-- Let's dynamically create each project page? -->
+<!-- An object that contains each properties (could be similar properties to each README): 
+    Title(which is a link(add pointer finger)(Do we recreate each project inside this project? Or just link to githubPages)(for console apps, we can make an html doc to hold the questions, export a file to save)), 
+    Gif, Description, Challenges, Licences, etc-->
+<!-- Object is saved server side -->
+<!--  -->
+
+<!-- IMPORTANT. link to our object file (look up how to link a json object js file) via the module export function -->
+<!-- DO THAT FIRST.  -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,26 +93,8 @@
                     </div>
                     <div id="three" class="container">
                         <div id="webDesign" class="row">
-                            <div id="#" class="col">
-
-                            </div>
-                            <div id="#" class="col">
-
-                            </div>
-                            <div id="#" class="col">
-
-                            </div>
-                            <div id="#" class="col">
-
-                            </div>
-                            <div id="#" class="col">
-
-                            </div>
-                            <div id="#" class="col">
-
-                            </div>
-                            <div id="#" class="col">
-
+                            <div class="team-area col-12 d-flex justify-content-center">
+                                {{ projects }}
                             </div>
                         </div>
                     </div>
