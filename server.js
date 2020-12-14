@@ -7,7 +7,7 @@ app.use(express.json());
 var PORT = process.env.PORT || 3001;
 
 app.get('/', function (req, res) {
-  res.send('Hello test World')
-})
+    res.sendFile(path.join(__dirname, "index.html"));
+});
  
 app.listen( PORT )
